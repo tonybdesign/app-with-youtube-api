@@ -3,7 +3,7 @@ import {
   GET_VIDEOS_LIST_SUCCESS,
   GET_VIDEOS_LIST_FAILURE,
 } from './actionTypes';
-import { getVideosListService } from '../services/todoList';
+import { getVideosListService } from '../services/videos';
 
 const getVideosListSuccess = (payload) => ({
   type: GET_VIDEOS_LIST_SUCCESS,
