@@ -1,1 +1,18 @@
-{}
+{
+    "en": {
+        "app.DataLoading.dataLoading": "Data loading...",
+        "app.MainPage.nothingToShow": "Nothing to show",
+        "app.MainPage.typeName": "--Please type video name in search bar--",
+        "app.SearchBar.searchInput": "Search",
+        "app.VideoPlayer.clickOnVideo": "Please click on video from the list --&gt",
+        "app.VideoPlayer.videoNotSelected": "Video not selected :("
+    },
+    "pl": {
+            "app.DataLoading.dataLoading": "Ładowanie danych...",
+            "app.MainPage.nothingToShow": "Nie ma nic do pokozania",
+            "app.MainPage.typeName": "--Wpisz nazwę wideo w wyszukiwarce--",
+            "app.SearchBar.searchInput": "Wyszukaj",
+            "app.VideoPlayer.clickOnVideo": "Wybierz wideo z listy--",
+            "app.VideoPlayer.videoNotSelected": "Nie wybrano żadnego wideo :("
+    }
+}

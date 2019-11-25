@@ -1,3 +1,32 @@
 [
-  
+  {
+    "id": "app.DataLoading.dataLoading",
+    "defaultMessage": "Data loading...",
+    "filepath": "src/components/DataLoading/messages.js"
+  },
+  {
+    "id": "app.SearchBar.searchInput",
+    "defaultMessage": "Search",
+    "filepath": "src/components/SearchBar/messages.js"
+  },
+  {
+    "id": "app.VideoPlayer.videoNotSelected",
+    "defaultMessage": "Video not selected :(",
+    "filepath": "src/components/VideoPlayer/messages.js"
+  },
+  {
+    "id": "app.VideoPlayer.clickOnVideo",
+    "defaultMessage": "Please click on video from the list --&gt",
+    "filepath": "src/components/VideoPlayer/messages.js"
+  },
+  {
+    "id": "app.MainPage.nothingToShow",
+    "defaultMessage": "Nothing to show",
+    "filepath": "src/containers/MainPage/messages.js"
+  },
+  {
+    "id": "app.MainPage.typeName",
+    "defaultMessage": "--Please type video name in search bar--",
+    "filepath": "src/containers/MainPage/messages.js"
+  }
 ]

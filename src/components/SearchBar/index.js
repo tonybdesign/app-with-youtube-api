@@ -80,7 +80,7 @@ const SearchBar = ({ handleSearchSubmit, intl }) => {
         <InputWrapper>
           <SearchInput name="search" type="text" placeholder={intl.formatMessage(messages.searchInput)} />
         </InputWrapper>
-        <Button for="search-form" type="submit">
+        <Button htmlFor="search-form" type="submit">
           <FaSearch size={14} />
         </Button>
       </Form>

@@ -7949,9 +7949,10 @@ react-icons@3.8.0:
   dependencies:
     camelcase "^5.0.0"
 
-react-intl-cra@0.3.4:
+react-intl-cra@^0.3.4:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/react-intl-cra/-/react-intl-cra-0.3.4.tgz#46eaeeb578e3c0c725351f6aee2ad3dddce58140"
+  integrity sha512-EVIWUlEAt5texVIqPODd61rPy4lEBf025fdDxW/2/Y+FNTYGAAEngMNK4rrx8pGDX76bDVuKvY9mHSIhm4duoQ==
   dependencies:
     babel-core "^6.26.0"
     babel-plugin-react-intl "^2.4.0"
