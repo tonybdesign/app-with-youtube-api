@@ -1,5 +1,8 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import styled, { keyframes } from 'styled-components';
+
+import messages from './messages';
 
 const Wrapper = styled.div`
   color: #fff;
@@ -115,7 +118,7 @@ const Roller = styled.div`
 
 const DataLoading = () => (
   <Wrapper>
-    Data loading...
+    <FormattedMessage {...messages.dataLoading} />
     <Roller class="lds-roller">
       <div />
       <div />

@@ -1,6 +1,9 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
 import { FaDizzy } from 'react-icons/fa';
+
+import messages from './messages';
 
 const Wrapper = styled.div`
   color: #0D0D0D;
@@ -28,10 +31,10 @@ const Wrapper = styled.div`
 const NothingToDisplay = () => (
   <Wrapper>
     <h2>
-Nothing to show
+      <FormattedMessage {...messages.nothingToShow} />
       <FaDizzy />
     </h2>
-    <h4>--Please type video name in search bar--</h4>
+    <h4><FormattedMessage {...messages.typeName} /></h4>
   </Wrapper>
 );
 

@@ -1,5 +1,8 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
+
+import messages from './messages';
 
 const Wrapper = styled.div`
   color: #0D0D0D;
@@ -24,8 +27,8 @@ const Wrapper = styled.div`
 
 const VideoNotSelected = () => (
   <Wrapper>
-    <h2>Video not selected :(</h2>
-    <h4>Please click on video from the list --&gt</h4>
+    <h2><FormattedMessage {...messages.videoNotSelected} /></h2>
+    <h4><FormattedMessage {...messages.clickOnVideo} /></h4>
   </Wrapper>
 );
 
