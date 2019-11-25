@@ -15,14 +15,14 @@ const getVideosListFailure = (error) => ({
   error,
 });
 
-export const getVideosList = () => async (dispatch) => {
+export const getVideosList = (keyword) => async (dispatch) => {
   dispatch({ type: GET_VIDEOS_LIST });
-  await getVideosListService()
+  await getVideosListService(keyword)
     .then((res) => {
       if (res.ok) {
         res.json().then((data) => dispatch(getVideosListSuccess(data)));
       } else {
         res.json().then((data) => dispatch(getVideosListFailure(data)));
       }
-    }).catch((e) => console.error(e));
+    }).catch((e) => console.error(e)); // eslint-disable-line no-console
 };

@@ -15,14 +15,14 @@ const getVideoFailure = (error) => ({
   error,
 });
 
-export const getVideo = (todoID) => async (dispatch) => {
+export const getVideo = (videoId) => async (dispatch) => {
   dispatch({ type: GET_VIDEO });
-  await getVideoService(todoID)
+  await getVideoService(videoId)
     .then((res) => {
       if (res.ok) {
         res.json().then((data) => dispatch(getVideoSuccess(data)));
       } else {
         res.json().then((data) => dispatch(getVideoFailure(data)));
       }
-    }).catch((e) => console.error(e));
+    }).catch((e) => console.error(e)); // eslint-disable-line no-console
 };
