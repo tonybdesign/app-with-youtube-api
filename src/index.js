@@ -7,6 +7,7 @@ import App from './App';
 import { register } from './serviceWorker';
 import { setLanguage } from './actions/localizationActions';
 
+import 'typeface-roboto';
 import './index.css';
 
 const target = document.getElementById('root');

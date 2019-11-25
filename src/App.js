@@ -12,7 +12,7 @@ import { selectLanguage } from './selectors/localization';
 const App = ({ lang }) => (
   <IntlProvider locale={lang} key={lang} messages={locales[lang]}>
     <div className="App">
-      <Container>
+      <Container fullHeight>
         <Routes />
       </Container>
     </div>

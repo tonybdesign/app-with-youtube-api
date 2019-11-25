@@ -5,8 +5,8 @@ import MainPage from './containers/MainPage';
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/video-preview" component={MainPage}/>
-    <Route exact path="/" component={MainPage}/>
+    <Route exact path="/video-preview" component={MainPage} />
+    <Route exact path="/" component={MainPage} />
   </Switch>
 );
 
