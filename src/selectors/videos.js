@@ -10,7 +10,7 @@ export const selectVideo = createSelector(
 
 export const selectVideosList = createSelector(
   selectorVidoesList,
-  (selectedState) => selectedState.todoList,
+  (selectedState) => selectedState.videosList,
 );
 
 export const selectVideosListReadyState = createSelector(
